@@ -7,5 +7,6 @@ RSpec.describe 'metodi kertoma' do
     expect(tulo(3, 2)).to eq(6)
     expect(tulo(4, 5)).to eq(24)
     expect(tulo(6, 10)).to eq(60)
+    expect(tulo(4, -2)).to eq(-8)
   end
 end
