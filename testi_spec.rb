@@ -2,11 +2,10 @@ require './koodi.rb'
 
 RSpec.describe 'metodi kertoma' do
   it "palauttaa parametrinsa kertoman" do
-    method_exists(self, :kertoma, 1)
-    expect(kertoma(1)).to eq(1)
-    expect(kertoma(3)).to eq(6)
-    expect(kertoma(4)).to eq(24)
-    expect(kertoma(6)).to eq(720)
-    expect(kertoma(10)).to eq(3628800)
+    method_exists(self, :tulo, 1, 1)
+    expect(tulo(1, 1)).to eq(1)
+    expect(tulo(3, 2)).to eq(6)
+    expect(tulo(4, 5)).to eq(24)
+    expect(tulo(6, 10)).to eq(60)
   end
 end
