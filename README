@@ -1,4 +1,4 @@
-Tee metodi tulo joka palauttaa parametreinään saamansa luvun tulon
+Tee metodi tulosta joka saa parametrina taulukon ja tulostaa sen jokaisen alkion. Kaikki alkiot tulostetaan samalle riville.
 
 Toimi seuraavasti:
 
