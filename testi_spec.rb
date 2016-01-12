@@ -1,7 +1,7 @@
 require './koodi.rb'
 
 RSpec.describe 'metodi tulosta' do
-  it "tulostaa taulukon arvot" do
+  it "tulostaa taulukon alkiot samalle riville" do
     method_taking_array_exists(self, :tulosta, [1, 2])
 
     expect {
