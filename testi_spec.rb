@@ -1,7 +1,7 @@
 require './koodi.rb'
 
-RSpec.describe 'metodi kertoma' do
-  it "palauttaa parametrinsa kertoman" do
+RSpec.describe 'metodi tulosta' do
+  it "tulostaa taulukon arvot" do
     method_taking_array_exists(self, :tulosta, [1, 2])
 
     expect {
