@@ -1,4 +1,9 @@
-Tee metodi `tulosta`, joka saa parametrina taulukon ja tulostaa sen jokaisen alkion. Kaikki alkiot tulostetaan samalle riville.
+Tee metodi `tulosta`, joka saa parametrina taulukon ja tulostaa sen jokaisen alkion. Kaikki alkiot tulostetaan samalle riville. Niiden väliin ei jätetä välilyöntiä. Mallituloste taulukolle `[1,2,3]`:
+
+```
+123
+
+```
 
 --
 
